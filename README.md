@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Contador de clics con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación sencilla de contador desarrollada como ejercicio práctico de aprendizaje de React.
 
-## Available Scripts
+La aplicación permite incrementar un contador mediante un botón y reiniciarlo cuando sea necesario.
 
-In the project directory, you can run:
+## Contexto del proyecto
 
-### `npm start`
+Este proyecto fue realizado como ejercicio de aprendizaje siguiendo una clase/tutorial guiado de React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La implementación se realizó paso a paso a partir de la explicación del tutor, con el objetivo de familiarizarme con la estructura de una aplicación React y practicar conceptos fundamentales del framework.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Conceptos practicados
 
-### `npm test`
+- Componentes funcionales en React
+- Manejo de estado mediante `useState`
+- Manejo de eventos mediante `onClick`
+- Uso de props para comunicar información y funciones entre componentes
+- Actualización dinámica de la interfaz
+- Separación de componentes
+- Organización de estilos CSS
+- Estructura básica de una aplicación React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionamiento
 
-### `npm run build`
+La aplicación cuenta con:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Botón "Clic"**: incrementa el contador en una unidad.
+- **Botón "Reiniciar"**: devuelve el contador a cero.
+- **Componente Contador**: muestra el valor actual.
+- **Componente Botón**: reutiliza la lógica visual y de interacción de los botones.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologías utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- JavaScript
+- React
+- HTML
+- CSS
+- Create React App
 
-### `npm run eject`
+## Estructura principal
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```text
+src/
+├── componentes/
+│   ├── boton.js
+│   └── contador.js
+├── hojas-de-estilo/
+│   ├── boton.css
+│   └── contador.css
+├── imagenes/
+├── App.js
+├── App.css
+├── index.css
+└── index.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Ejecución local
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clonar el repositorio
+git clone https://github.com/RicardoCorzo/contador-de-clics_con_react.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Entrar en la carpeta del proyecto
+cd contador-de-clics_con_react
 
-## Learn More
+3. Instalar las dependencias
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Ejecutar la aplicación
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+La aplicación se abrirá normalmente en:
+http://localhost:3000
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Nota
+Este repositorio corresponde a un ejercicio de aprendizaje guiado.
+Se publica como evidencia de práctica con React y JavaScript y como parte de mi proceso de formación en desarrollo de software.
