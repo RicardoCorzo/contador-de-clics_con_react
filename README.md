@@ -53,8 +53,9 @@ src/
 ├── App.css
 ├── index.css
 └── index.js
+```
 
-## Ejecución local
+# Ejecución local
 
 1. Clonar el repositorio
 git clone https://github.com/RicardoCorzo/contador-de-clics_con_react.git
@@ -71,6 +72,6 @@ npm start
 La aplicación se abrirá normalmente en:
 http://localhost:3000
 
-## Nota
+# Nota
 Este repositorio corresponde a un ejercicio de aprendizaje guiado.
 Se publica como evidencia de práctica con React y JavaScript y como parte de mi proceso de formación en desarrollo de software.
